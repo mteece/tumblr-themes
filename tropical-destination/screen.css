@@ -221,7 +221,10 @@ h1, h2, h3, h4, h5, h6 {
     
 #wrapper {
 }
-#header { overflow: hidden;  background: url(palms.png) bottom left no-repeat;}
+#header { 
+    overflow: hidden;
+    background: url(palms.png) bottom left no-repeat;
+    }
 #header-bg { background: url(header-top-bg.png) top left repeat; }
 #header-top { 
     padding: 140px 0 0 190px; 
@@ -394,10 +397,22 @@ h1, h2, h3, h4, h5, h6 {
 
 #quotes {margin-bottom: 30px}
 #tagsdisplay { width: 820px; padding: 40px 0 0 190px;}
+    
+    #navigation { padding: 10px 0 0 0;}
+    #navigation ul {
+        list-style: none;
+        text-align: right;
+    }
+    #navigation ul  li { list-style: none; }
+    #navigation ul li a {
+        font-size: 25px;
+        line-height: normal;
+        color: #F15D55;
+        }
 
 #description { 
     width: 820px; 
-    padding: 20px 0 0 190px;
+    padding: 5px 0 0 190px;
     text-align: right;
     }
 #contact-info  {

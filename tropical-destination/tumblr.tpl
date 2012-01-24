@@ -66,15 +66,15 @@
         <div id="container" class="clear">
         
         {block:HasPages}
-        	<div id="description"><h3 class="bebasneueregular">
+        	<div id="navigation"><ul class="bebasneueregular">
 	        {block:Pages}
-				<a href="{URL}">{Label}</a>
+				<li><a href="{URL}">{Label}</a></li>
 			{/block:Pages}
-			</h3></div>
+			</ul></div>
         {/block:HasPages} 
         
         {block:Description}
-            <div id="description"><h3 class="bebasneueregular">{Description}</h3></div>
+            <div id="description"><h3>{Description}</h3></div>
         {/block:Description}
         
           <div id="contact-info">John Doe <br />p: (123) 456-7890 <br />e: hello@example.com</div>

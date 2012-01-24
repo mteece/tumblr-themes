@@ -10,7 +10,11 @@ A small collection of themes for [Tumblr](http://tumblr.com/ "Tumblr").
 
 Theme created to use for our wedding website. Includes the static files for images, css, and html that you can use to tweak the layout on your editor of choice without using the inline editor on Tumblr. 
 
-### Notes
+### Mobile Theme
+
+Override the default iPhone layout by adding a Custom Layout page with the url **/iphone-theme**. Use the content of the *iphone-theme/tumble-iphone.tpl* for the custom content.
+
+#### Notes
 
 For static files use [Tumblr Upload](http://www.tumblr.com/themes/upload_static_file "Tunblr Upload"). Use this to host small files required for custom themes (images, css, javascript). Once uploaded, files cannot be deleted or changed. Max size is 5 MB per file and 15 MB per day.
 
