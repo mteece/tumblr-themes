@@ -1,6 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-	<head>
+    <head>
 		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 		<meta name="text:Google Analytics ID" content=""/>
 		{block:Description}
@@ -15,8 +15,8 @@
 		
 		<title>{Title}{block:PostSummary} | {PostSummary}{/block:PostSummary}{block:SearchPage} | Search results for "{SearchQuery}"{/block:SearchPage}</title>
 		
-		<link rel="stylesheet" type="text/css" href="http://static.tumblr.com/ts2nqrf/ozylq3ufg/screen.css" />
-		<link rel="stylesheet" type="text/css" href="http://static.tumblr.com/ts2nqrf/qe1lq3uho/bebasneueregular.css" /> 
+		<link rel="stylesheet" type="text/css" href="http://static.tumblr.com/p1lyquj/yv5lybogg/screen.css" />
+		<link rel="stylesheet" type="text/css" href="http://static.tumblr.com/p1lyquj/aXRlybn4x/bebasneueregular.css" /> 
 		
 		<link rel="shortcut icon" href="{Favicon}" />
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
@@ -28,7 +28,7 @@
  			#description a { color: {color:Color2};}
  			.name { color: {color:Color2};}
  			.answertags { color: {color:Color2};}
- 			.post-color { background-color: {color:Color2}; }
+ 			.post-color { background-color: #F15D55; background: rgba(241, 93, 85, 0.8);}
  			blockquote { border-color: {color:Color2}; }
  			.tagshowing { color: {color:Color2};}
  			h3 a:hover {color: {color:Color2};}
@@ -77,7 +77,7 @@
             <div id="description"><h3>{Description}</h3></div>
         {/block:Description}
         
-          <div id="contact-info">John Doe <br />p: (123) 456-7890 <br />e: hello@example.com</div>
+           <div id="contact-info">Maureen Graef <br />p: (603) 888 2220 <br />e: graefm@libertytravel.com</div>
         
         {block:TagPage}
 			<div id="tagsdisplay"><h3 class="bebasneueregular">Posts Tagged: <span class="tagshowing">{Tag}</span></h3></div>

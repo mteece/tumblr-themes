@@ -18,7 +18,7 @@
             width: 640px;
             margin: 0 auto;
             padding: 0;
-            background: url("../body-bg.png") repeat scroll left top transparent;
+            background: url(http://static.tumblr.com/p1lyquj/ahQlybn2u/body-bg.png) repeat scroll left top transparent;
             color: #4F4F4F;
             font-family: Arial,Verdana,Tahoma,Helvetica,sans-serif;
             font-size: 14px;
@@ -43,7 +43,7 @@
         .gray_bubble {
             text-shadow: 0px 2px 5px rgba(0,0,0,.75);
             -webkit-font-smoothing: antialiased;
-             background: #00A0BB url(../palms.png) bottom left no-repeat;
+             background: #00A0BB url(http://static.tumblr.com/p1lyquj/Y1Slybn4c/palms.png) bottom left no-repeat;
             -webkit-box-shadow: inset 0 3px 5px #292a2b,
                                 0 2px 0 rgba(255,255,255,0.14);
             margin: 20px 20px 0 20px;
@@ -137,7 +137,6 @@
             }
 
             .bubble .top {
-                background: url('http://assets.tumblr.com/images/iphone/tumblelog_retina/content_top.png') top left repeat-y transparent;
                 width: 608px;
                 height: 34px;
                 margin: 0 auto;
@@ -176,11 +175,12 @@
                     }
                     
                     .bubble .content h2 {
-                        color: rgba(241, 93, 85, 0.8);
+                        color: #ffffff;
                         font-size: 36px;
                         line-height: 40px;
                         margin: 0;
                         padding: 0;
+                        background-color: rgba(241, 93, 85, 0.8);
                     }
                     
                     .bubble .content .copy p {

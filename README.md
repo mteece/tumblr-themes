@@ -23,3 +23,12 @@ For static files use [Tumblr Upload](http://www.tumblr.com/themes/upload_static_
 3. In the **tumblr.tpl** file replace any *url(myimage.png)* with the static URL *url(http://static.tumblr.com/aabbccdd/myimage.png)*.
 4. In the **tumblr.tpl** file replace css references. Any *href="screen.css"* with the static URL *href="http://static.tumblr.com/aabbccdd/screen.css"*.
 5. In the Tumblr interface Customize Appearance, edit the HTML and replace it with the content of **tumblr.tpl**
+
+#### Static files
+
+* http://static.tumblr.com/p1lyquj/ahQlybn2u/body-bg.png
+* http://static.tumblr.com/p1lyquj/5fLlybn3k/header-bot-bg.png
+* http://static.tumblr.com/p1lyquj/GIBlybn3z/header-top-bg.png
+* http://static.tumblr.com/p1lyquj/Y1Slybn4c/palms.png
+* http://static.tumblr.com/p1lyquj/aXRlybn4x/bebasneueregular.css
+* http://static.tumblr.com/p1lyquj/yv5lybogg/screen.css
