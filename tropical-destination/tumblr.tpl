@@ -33,6 +33,7 @@
  			.tagshowing { color: {color:Color2};}
  			h3 a:hover {color: {color:Color2};}
              .post-type{ color: {color:Color3};}
+             p img { padding : 0; margin-top: 10px;}
 			{CustomCSS}
 		</style>
 		
